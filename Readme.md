@@ -1,7 +1,7 @@
-API 
+## API 
 Este proyecto es una API desarrollada en .NET 8 que permite la gestión de artículos.
 
-Instalación y configuración.
+## Instalación y configuración.
 
 1- Clonar el repositorio:
     git clone https://github.com/zFlixT/API
@@ -20,17 +20,17 @@ Instalación y configuración.
 
 -------------------------------------------------------------------------------------------------------------
 
-Uso de la API
+## Uso de la API
 
-- Obtener todos los artículos
+- **Obtener todos los artículos**
    GET /api/articulos
      "se muestran todos los productos existentes"
 
-- Obtener un artículo por ID
+- **Obtener un artículo por ID**
    GET /api/articulos/{id}
     id : "Insertar la id del producto a mostrar"
 
-- Crear un nuevo artículo
+- **Crear un nuevo artículo**
    POST /api/artículos/InsertarProducto
      {
        "id": 0,
@@ -39,7 +39,7 @@ Uso de la API
        "stock": 10
      }
 
-- Actualizar un artículo existente
+- **Actualizar un artículo existente**
    PUT /api/artículos/EditarProducto/{id}
      id: "Seleccionar id del producto a editar"
 	EditarProducto
@@ -50,6 +50,6 @@ Uso de la API
   	  "stock": "NuevoStock"
 	}
 
-- Eliminar un artículo
+- **Eliminar un artículo**
    DELETE /api/Articulos/EliminarProducto/{id}
       id : "ingresar la id del producto a eliminar"
